@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 500px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 800;
+}
+
+.navigation a:hover {
+    background: #359381;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.parallax {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    display: flex;
+}
+
+
+.kanan {
+    flex: 1; /* Membuat elemen kanan menempati ruang yang tersedia */
+    display: flex;
+    justify-content: center; /* Memusatkan gambar secara horizontal */
+    align-items: center; /* Memusatkan gambar secara vertikal */
+    margin-left: 50px;
+}
+
+.kanan img {
+    width: 30vw;
+    margin-bottom: 210px;
+}
+
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.third {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    display: flex;
+}
+
+.third h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+    
+}
+
+.third iframe {
+    width: 60vw;
+    height: 80vh;
+}
+
